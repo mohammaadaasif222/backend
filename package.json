@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "json-server": "^0.17.1"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "server": "json-server --watch db.json --port 5000"
   }
+
 }
