@@ -4,7 +4,23 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "server": "json-server --watch db.json --port 5000"
-  }
-
+    "server": "json-server --watch db.json --port 5000",
+    "start": "node server.js"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammaadaasif222/backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammaadaasif222/backend/issues"
+  },
+  "homepage": "https://github.com/mohammaadaasif222/backend#readme",
+  "description": ""
 }
